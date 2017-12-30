@@ -1,0 +1,449 @@
+/*My Own CSS*/
+/*=======================BODY SECTION===========================*/
+
+/*===================NAVBAR FIRST SECTION===============================*/
+
+/*rubah jenis tulisan untuk navbar*/
+#tulisan1 a{
+	font-family: 'Roboto',sans-serif;
+	font-size: 11.5px;
+	color: lightgray;
+	font-weight: bold;
+}
+
+/*kongirasi icon phone di navbar*/
+#phone {
+	color: darkgray;
+	font-size: 0.7em;
+	vertical-align: middle;
+    line-height: 7px;
+    padding: 10px 0px;
+}
+#phone a{
+	color: whitesmoke;
+	font-size: 0.7em;
+	font-family: 'Roboto',sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+/*kongirasi icon envelope di navbar*/
+#envelope {
+	color: darkgray;
+	font-size: 0.7em;
+	 line-height: 7px;
+    padding: 10px 0px;
+}
+#envelope a{
+	color: whitesmoke;
+	font-size: 0.7em;
+	font-family: 'Roboto',sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*rubah jenis tulisan untuk navbar*/
+#login-navbar a{
+	font-family: 'Roboto',sans-serif;
+	font-weight: 700;
+	font-size: 11.5px;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+/*konfigurasi modal box untuk login*/
+.modal-dialog {
+    top: 20%;
+    height: 2000px;
+}
+#modal-content h4{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-color: darkslategray;
+	font-weight: 700px;
+}
+
+/*konfigurasi buat input username dan show-hidden pass*/
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+/*===================NAVBAR SECOND SECTION===============================*/
+/*konfigurasi buat navbar kedua*/
+#navbar-second {
+	font-family: 'Roboto',sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color:#d7d6ce;
+    padding-left: 60px;
+}
+
+/*konfigurasi link di navbar kedua*/
+#navbar-dua a{
+    color:black;
+    line-height: 9px;
+    display: inline-block;
+    padding-top: 40px;
+    list-style-type: none;
+    font-size: 11pt;
+}
+
+
+/*ngatur logo makers di navbar*/
+.logo-makers img {
+	width: 240px;
+	height: 26px;
+}
+
+/*ngatur gambar di carousel*/
+.carousel-inner {
+	height: 750px;
+}
+
+/*ngatur tulisan event*/
+.event h3 {
+	font-family: 'Roboto Slab',sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #333333;
+}
+
+/*untuk border view all*/
+.event span{
+	text-align: right;
+	margin-left: 1020px;
+	padding: 10px 5px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+/*ngatur font jadwal*/
+.jadwal h3 {
+  font-family: 'Roboto',sans-serif;
+  color: #fcce05;
+  font-size: 70px;
+  font-weight: bold;
+}
+.jadwal h6 {
+  font-family: 'Roboto',sans-serif;
+  color: #fcce05;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+/*garis vertical*/
+.vertical {
+	border-left: 1px solid;
+	border-color: whitesmoke;
+	height: 60px;
+}
+
+/*ngatur deksripsi januari*/
+.desk-januari h3{
+	font-family: 'Roboto Slab',sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 16pt;
+}
+.desk-januari h2{
+	font-family: 'Roboto',sans-serif;
+	color: #999999;
+	font-weight: bold;
+	font-size: 10pt;	
+}
+.desk-januari a {
+	font-family: 'Roboto',sans-serif;
+	color:#999999;
+	text-decoration: none;
+	font-weight: bold;	
+}
+.desk-januari p{
+	font-family: 'Roboto',sans-serif;
+	color: #999999;
+	font-size: 11pt;	
+}
+.img-januari img{
+	height: 140px;
+}
+
+/*ngatur foto bang hikmat*/
+.fotobanghikmat img{
+	width: 1400px;
+	height: 670px;
+}
+
+/*ngatur program section*/
+.prog a{
+  font-family: 'Roboto Slab',sans-serif;
+  color: #333333;
+  font-size: 26px;
+  font-weight: bold;
+}
+.prog p {
+	color: darkgrey;
+}
+
+/*ngatur program card*/
+.card-body img{	
+    margin-left: 44%;
+    margin-right: 55%;
+    border-radius:100%;
+}
+.card-body h5 {
+	text-align: center;
+	font-family: 'Roboto',sans-serif;
+	color: #7a7a7a;
+	font-size: 10pt;
+}
+.card-body h3 {
+	text-align: center;
+	font-family: 'Roboto Slab',sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.card-body i {
+	color:lightgray;
+	font-size: 11pt;	 
+}
+.card-body a{
+	padding-left: 240px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #54b551;
+}
+.bodi2 a{
+	color:#f24c0a;
+	font-size: 9pt;
+}
+
+.bodi3 a{
+	color:#f24c0a;
+	font-size: 9pt;
+}
+/*ngatur news section*/
+.news-img h4 {
+	color:white;
+	font-family: 'Roboto Slab',sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.news-img h5 {
+	color:white;
+	font-family: 'Roboto',sans-serif;
+	font-size: 11pt;
+}
+.news img {
+	width:350px;
+	height: 210px;
+}
+.content .border {
+	padding-left: 100px;
+	padding-right: 90px;
+}
+
+/*ngatur blog section*/
+.container h4{
+	font-family: 'Roboto Slab',sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+.blog1 span{
+	padding-right: 480px;
+	padding-bottom: 130px;
+	background-color: #fcce05;
+}
+.blog2 img{
+	width: 500px;
+	height: 152px;
+}
+
+/*what people say section*/
+.whatpeople h4 {
+	text-align: center;
+	font-family: 'Roboto Slab',sans-serif;
+	font-size: 22pt;
+	font-weight: bold;
+}
+.whatpeople p {
+	font-family: 'Roboto',sans-serif;
+	text-align: center;
+	font-size: 11.5pt;
+	color:#999999;
+}
+.whatpeople hr {
+	width: 35px;
+	border-color: black;
+}
+
+/*newsletter section*/
+.newsletter p {
+	font-family: 'Roboto',sans-serif;
+	padding-top: 100px;
+	padding-right: 90px;
+	padding-left: 100px;
+	color:darkgrey;
+	font-size: 11.5pt;
+}
+.input-group {
+	padding-left: 70px;
+	padding-right: 100px;
+	height: 50px;
+	font-family: 'Roboto',sans-serif;
+}
+.placeholder{
+	font-size: 4pt;
+}
+
+/*======================FOOTER=====================*/
+.footer {
+	background-color: #002c39;
+	padding-bottom: 65px;
+}
+
+.makerlogo img{
+	width: 350px;
+	height: 27px;
+	padding-left: 100px;
+}
+.makerlogo i{
+	color:white;
+	padding-left: 100px;
+	padding-top:15px;
+}
+.makerlogo a{
+	color:white;
+	text-decoration: none;
+	padding-left: 20px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 11pt;
+}
+.makerlogo a:hover {
+	color:red;
+}
+.logo-fb img{
+	
+}
+.social-media img{
+	padding-left: 20px;
+	width: 50px;
+	height: 30px;
+	color:white;
+}
+
+.company a{
+	color:white;
+	padding-left: 100px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 10pt;
+	text-decoration: none;		
+}
+.company a:hover {
+	color:red;
+	opacity: 0.9px;
+}
+.company p{
+	font-family: 'Roboto Slab',sans-serif;
+	color:white;
+	padding-left: 100px;
+	font-weight: bold;
+	font-size: 10.5pt;
+}
+.programm a{
+	color:white;
+	padding-left: 60px;
+	padding-right: 65px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 10pt;
+	text-decoration: none;		
+}
+
+.programm p{
+	font-family: 'Roboto Slab',sans-serif;
+	color:white;
+	padding-left: 58px;
+	font-size: 10.5pt;
+}
+.programm a:hover {
+	color:red;
+	opacity: 0.9px;
+}
+
+.partnership a{
+	color:white;
+	padding-left: 2px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 10pt;
+	text-decoration: none;		
+}
+
+.partnership p{
+	font-family: 'Roboto Slab',sans-serif;
+	color:white;
+	padding-left: 1px;
+	font-weight: bold;
+	font-size: 10.5pt;
+}
+.partnership a:hover {
+	color:red;
+	opacity: 0.9px;
+}
+
+.footer-dua {
+	background-color:#111111;
+	padding-top: 30px;
+}
+.footer-dua a{
+	text-align: center;
+	display: block;
+}
+.tulisan2  a{
+	font-family: 'Roboto',sans-serif;
+	font-size: 13px;
+	color: gray;
+	padding-top: 8px;
+}
+.tulisan3 a{
+	font-family: 'Roboto',sans-serif;
+	font-size: 13px;
+	color: white;
+	padding-top: 8px;
+	padding-right: 0px;
+}
+.tulisan4  a{
+	font-family: 'Roboto',sans-serif;
+	font-size: 13px;
+	color: gray;
+}
+.tulisan5  a{
+	font-family: 'Roboto',sans-serif;
+	font-size: 13px;
+	color: gray;
+	padding-top: 7px;
+	padding-right: 20px;
+}
+.tulisan6  a{
+	font-family: 'Roboto',sans-serif;
+	font-size: 13px;
+	color: gray;
+	padding-top: 7px;
+	padding-right: 1px;
+}
+.parallax2 h3{
+	padding-top: 180px;
+	text-align: center;
+	font-family: 'Roboto Slab',sans-serif;
+	font-size: 27pt;
+	font-weight: bold;
+}
+
+.parallax2 h4{
+	text-align: center;
+	font-family: 'Roboto',sans-serif;
+	font-size: 15pt;
+}

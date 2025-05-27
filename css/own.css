@@ -538,6 +538,8 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 .parallax2 {
 	/* The image used */
@@ -551,4 +553,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
